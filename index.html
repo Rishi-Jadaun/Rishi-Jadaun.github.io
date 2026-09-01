@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishi Raj | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="boot-screen" id="bootScreen">
+    <div class="boot-box">
+      <div class="window-title">RISHI OS</div>
+      <p>Loading portfolio...</p>
+      <div class="progress"><span></span></div>
+      <small>© 2026 Rishi Raj</small>
+    </div>
+  </div>
+
+  <main class="desktop">
+    <header class="topbar">
+      <div class="brand">MY PORTFOLIO</div>
+      <nav>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </header>
+
+    <section class="hero window">
+      <div class="window-titlebar"><span>WELCOME</span><span>×</span></div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">HELLO, WORLD!</p>
+          <h1>RISHI<br><span>RAJ</span></h1>
+          <p class="role">B.Tech ECE Student • Python • IoT</p>
+          <p class="intro">I build practical projects where software, electronics and intelligent systems meet.</p>
+          <div class="buttons">
+            <a class="btn primary" href="#projects">VIEW PROJECTS</a>
+            <a class="btn" href="#contact">CONTACT ME</a>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="photo-frame">
+            <img class="profile-photo" src="assets/rishi-profile.jpeg" alt="Rishi Raj portrait">
+          </div>
+          <p class="tag">ENGINEER / BUILDER</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="two-col">
+      <article class="window">
+        <div class="window-titlebar"><span>ABOUT ME</span><span>×</span></div>
+        <div class="window-body">
+          <h2>ABOUT ME</h2>
+          <p>I’m Rishi Raj, an ECE student who prefers learning by doing. I enjoy starting with a simple idea, figuring out how it could work, and gradually turning it into a real project.</p>
+          <p>Not everything works on the first attempt — and honestly, that’s one of the parts I enjoy most. Every mistake, experiment, and project adds something to what I’m learning.</p>
+        </div>
+      </article>
+
+      <article id="skills" class="window">
+        <div class="window-titlebar"><span>SKILLS</span><span>×</span></div>
+        <div class="window-body">
+          <h2>SKILLS</h2>
+          <div class="skill-list">
+            <div><b>PYTHON</b><span>████████░░</span></div>
+            <div><b>DSA</b><span>██████░░░░</span></div>
+            <div><b>IOT / EMBEDDED</b><span>████████░░</span></div>
+            <div><b>MATLAB</b><span>███████░░░</span></div>
+            <div><b>GIT / GITHUB</b><span>███████░░░</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="window goal-window">
+        <div class="window-titlebar"><span>GOAL // ON THE WAY</span><span>×</span></div>
+        <div class="window-body goal-body">
+          <h2>GOAL // ON THE WAY</h2>
+          <div class="goal-terminal">
+            <div><span>&gt; CURRENT_MODE:</span> BUILD + LEARN</div>
+            <div><span>&gt; FOCUS:</span> Python • IoT • Embedded Systems</div>
+            <div><span>&gt; NEXT_LEVEL:</span> Machine Learning</div>
+          </div>
+          <div class="goal-progress">
+            <b>PROGRESS</b><span>████████░░</span>
+          </div>
+          <p class="goal-note">One project at a time. Learn the concept, build it, test it, improve it — then move to the next challenge.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="projects" class="window projects-window">
+      <div class="window-titlebar"><span>PROJECTS</span><span>×</span></div>
+      <div class="window-body">
+        <div class="section-heading">
+          <h2>MY PROJECTS</h2>
+          <span class="folder-count">05 ITEMS</span>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="file-icon">📁</span>
+            <h3>Attendance Assistant</h3>
+            <p>Attendance calculator with required-percentage tracking and useful attendance predictions.</p>
+            <span class="tech">PYTHON</span>
+            <a class="project-link" href="https://github.com/Rishi-Jadaun/Attendance_Assistant" target="_blank" rel="noopener">OPEN GITHUB ↗</a>
+          </article>
+          <article class="project-card">
+            <span class="file-icon">🔍</span>
+            <h3>Duplicate / Orphan File Detector</h3>
+            <p>Hash-based file scanner that detects duplicate groups and helps identify recoverable storage.</p>
+            <span class="tech">PYTHON • HASHING</span>
+            <a class="project-link" href="https://github.com/Rishi-Jadaun/Duplicate-Orphan-File-Detector-Hash-Based-" target="_blank" rel="noopener">OPEN GITHUB ↗</a>
+          </article>
+          <article class="project-card">
+            <span class="file-icon">🖼️</span>
+            <h3>Bulk Image Processing Pipeline</h3>
+            <p>Batch image resizing, format conversion, watermarking, logging and report generation.</p>
+            <span class="tech">PYTHON • IMAGE PROCESSING</span>
+            <a class="project-link" href="https://github.com/Rishi-Jadaun/Bulk-Image-Processing-Pipeline" target="_blank" rel="noopener">OPEN GITHUB ↗</a>
+          </article>
+          <article class="project-card">
+            <span class="file-icon">🤖</span>
+            <h3>Human Following Robot</h3>
+            <p>Arduino-based robotics project designed to follow a person using sensors.</p>
+            <span class="tech">ARDUINO • IOT</span>
+          </article>
+          <article class="project-card">
+            <span class="file-icon">🏠</span>
+            <h3>Hand Gesture Home Automation</h3>
+            <p>IoT automation concept using hand gestures to control home appliances.</p>
+            <span class="tech">IOT • EMBEDDED</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline window">
+      <div class="window-titlebar"><span>EDUCATION</span><span>×</span></div>
+      <div class="window-body">
+        <h2>EDUCATION</h2>
+        <div class="edu-card">
+          <div class="edu-main">
+            <span class="edu-icon">🎓</span>
+            <div><b>Bachelor of Technology — B.Tech, ECE</b><p>GIET University, Gunupur, Odisha</p></div>
+          </div>
+          <div class="edu-meta"><span class="edu-date">2024 — 2028</span><span class="edu-grade">&nbsp;</span></div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-main">
+            <span class="edu-icon">🏫</span>
+            <div><b>+2 High School Katoria, Banka</b><p>Intermediate — Physics, Chemistry, Mathematics, Computer Science</p></div>
+          </div>
+          <div class="edu-meta"><span class="edu-date">APR 2022 — MAR 2024</span><span class="edu-grade">78.2%</span></div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-main">
+            <span class="edu-icon">🏫</span>
+            <div><b>SKM Public School, Dadhi Pakaria</b><p>Matriculation</p></div>
+          </div>
+          <div class="edu-meta"><span class="edu-date">APR 2021 — APR 2022</span><span class="edu-grade">86%</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="window experience-window">
+      <div class="window-titlebar"><span>EXPERIENCE</span><span>×</span></div>
+      <div class="window-body">
+        <div class="section-heading"><h2>TRAINING &amp; CERTIFICATIONS</h2><span class="folder-count">03 RECORDS</span></div>
+        <div class="experience-grid">
+          <article class="experience-card">
+            <div class="record-head"><span class="record-icon">📡</span><span class="record-year">JUN 2025</span></div>
+            <h3>Industrial Training &amp; Internship in IoT</h3>
+            <p class="record-org">NIELIT Patna • 4 Weeks</p>
+            <p>Completed industrial training and internship in Internet of Things with an <strong>A Grade</strong>.</p>
+            <div class="record-tags"><span>IoT</span><span>INTERNSHIP</span><span>A GRADE</span></div>
+          </article>
+          <article class="experience-card">
+            <div class="record-head"><span class="record-icon">📊</span><span class="record-year">JUN 2026</span></div>
+            <h3>Visual Data Analysis Using MATLAB</h3>
+            <p class="record-org">GIET University • ECE Department</p>
+            <p>Completed a summer internship and training programme focused on MATLAB applications for visual data analysis.</p>
+            <div class="record-tags"><span>MATLAB</span><span>DATA ANALYSIS</span><span>TRAINING</span></div>
+          </article>
+          <article class="experience-card">
+            <div class="record-head"><span class="record-icon">⚙️</span><span class="record-year">DEC 2025 — JAN 2026</span></div>
+            <h3>SCADA — E-SDP</h3>
+            <p class="record-org">CTTC Extension Centre • Rayagada</p>
+            <p>Successfully completed an Entrepreneurship-cum-Skill Development Programme on SCADA.</p>
+            <div class="record-tags"><span>SCADA</span><span>AUTOMATION</span><span>MSME</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact window">
+      <div class="window-titlebar"><span>CONTACT</span><span>×</span></div>
+      <div class="window-body">
+        <h2>LET'S CONNECT</h2>
+        <div class="buttons social-buttons">
+          <button class="btn primary" id="emailButton" type="button" title="Copy email address">EMAIL ME</button>
+          <a class="btn" href="https://github.com/Rishi-Jadaun" target="_blank" rel="noopener">GITHUB</a>
+          <a class="btn" href="https://www.linkedin.com/in/rishi-raj-b10345361/" target="_blank" rel="noopener">LINKEDIN</a>
+          <a class="btn" href="https://www.instagram.com/iyk.rishi/" target="_blank" rel="noopener">INSTAGRAM</a>
+        </div>
+        <div id="emailPopup" class="email-popup" role="status" aria-live="polite" aria-hidden="true">
+          <button class="email-popup-close" id="emailPopupClose" type="button" aria-label="Close">×</button>
+          <div class="email-popup-title">EMAIL COPIED!</div>
+          <p><span id="popupEmail">rishimunibnk2007@gmail.com</span></p>
+          <p class="email-popup-note">The email address has been copied to your clipboard.<br>You can mail me using the button below.</p>
+          <a class="btn primary" href="mailto:rishimunibnk2007@gmail.com">MAIL ME</a>
+        </div>
+      </div>
+    </section>
+</main>
+  <script src="script.js"></script>
+</body>
+</html>
